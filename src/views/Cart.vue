@@ -96,8 +96,7 @@
 
       selectPrice () {
 
-        let totalPrice = 0
-        let value = 0
+        let totalPrice,value;
         this.selectPrice.forEach((item, index) => {
           if (item.checked) {
             totalPrice += item.price * item.count
