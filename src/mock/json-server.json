@@ -1,0 +1,9 @@
+{
+  "port": 8888,
+  "watch": true,
+  "static": "./src/mock",
+  "read-only": false,
+  "no-cors": false,
+  "no-gzip": false
+
+}
